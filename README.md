@@ -14,6 +14,10 @@
 - Flexbox
 - Grid Layout
 
-### ССылка на макет в Figma:
+### Сcылка на макет в Figma:
 
-- 
+- https://disk.yandex.ru/d/WuW0eanZhUdSdw
+
+### Сcылка на репозиторий:
+
+- https://anna-gorgulenko.github.io/movies-explorer-frontend/
