@@ -92,6 +92,7 @@ input:-ms-input-placeholder {
   .search__form {
     padding: 0;
     margin-bottom: 32px;
+    border-radius: 8px 8px 8px 8px;
   }
 
   .search__label {
@@ -101,6 +102,7 @@ input:-ms-input-placeholder {
   .search__input {
     width: calc(100% - 80px);
     padding: 17px 11px;
+    padding: 0;
     font-size: 16px;
   }
 
@@ -112,5 +114,28 @@ input:-ms-input-placeholder {
 
   .search__border-bottom {
     margin-top: 62px;
+  }
+
+  .search__input-container {
+    position: relative;
+  }
+
+  .search__input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .search__input-placeholder {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a0a0a0;
+    pointer-events: none;
+  }
+
+  .search__button {
+    width: 95px;
+    margin: 5px 5px 5px 0;
   }
 }

@@ -5,7 +5,7 @@ import "./Navigation.css"
 
 function Navigation({ handleCloseMobileMenu }) {
   return (
-    <div className="navigation__overlay-page">
+    <section className="navigation__overlay-page">
       <div className="navigation__overlay-container"></div>
       <div className="navigation__menu">
         <button
@@ -40,7 +40,7 @@ function Navigation({ handleCloseMobileMenu }) {
           <img src={account} alt="аккаунт" />
         </Link>
       </div>
-    </div>
+    </section>
   )
 }
 

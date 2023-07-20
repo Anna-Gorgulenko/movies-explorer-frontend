@@ -46,7 +46,6 @@
     margin: 0 auto;
     margin: 48px 30px;
     font-size: 40px;
-
     text-align: center;
   }
 }
@@ -70,19 +69,19 @@
     height: 230px;
     object-fit: cover;
   }
+
+  
 }
 
-@media screen and (max-width: 688px) {
-  .promo__imagemobile {
+@media screen and (max-width: 685px) {
+  .promo__image {
     width: 580px;
-    max-height: 180px;
   }
 }
 
-@media screen and (max-width: 540px) {
-  .promo__imagemobile {
-    width: 90%;
-    max-height: 180px;
+@media screen and (max-width: 590px) {
+  .promo__image {
+    width: 440px;
   }
 }
 
@@ -106,15 +105,17 @@
     font-size: 31px;
     max-width: 400px;
     font-weight: 400;
-
     letter-spacing: -1.24px;
   }
 
-  .promo__imagemobile {
-    margin: auto;
-    height: 100%;
-    max-width: 100%;
-    object-fit: cover;
+  .promo__image {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .promo__image {
+    width: 320px;
   }
 }
 

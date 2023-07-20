@@ -1,12 +1,15 @@
 import React from "react"
 import "./MoviesCard.css"
 
+/*временно подставляю картинки для отображения в верстке */
+import avatar from "../../images/AnnaCard.png"
+
 function MoviesCard() {
   return (
     <>
       <li className="card">
         {/* карточка вставлена временно для разметки верстки */}
-        <img alt="" className="card__photo" />
+        <img className="card__photo" src={avatar} alt="фотокарточка фильма" />
         <div className="card__container">
           <div className="card__title-container">
             <h2 className="card__title">Бег это свобода</h2>
@@ -18,7 +21,7 @@ function MoviesCard() {
 
       <li className="card">
         {/* карточка вставлена временно для разметки верстки */}
-        <img alt="" className="card__photo" />
+        <img className="card__photo" src={avatar} alt="фотокарточка фильма" />
         <div className="card__container">
           <div className="card__title-container">
             <h2 className="card__title">Бег это свобода</h2>

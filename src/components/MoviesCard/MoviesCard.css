@@ -12,7 +12,7 @@
 }
 
 .card__photo {
-  background-image: url(../../images/Screenshot_2784.png);
+ /* background-image: url(../../images/AnnaCard.png); */
   object-fit: cover;
   background-size: cover;
   width: 100%;

@@ -19,7 +19,7 @@ function Promo() {
         <img
           className="promo__imagemobile"
           src={landingLogoMobile}
-          alt="изображение"
+          alt="изображение спирали для оформления приложения"
         />
       </div>
     </section>
