@@ -55,10 +55,10 @@ function Header() {
 
       {showTwoHeader() && (
         <header className="header header_color">
-          <Link to="/" className="form__logo">
+          <Link to="/" className="header__logo">
             <img src={logo} alt="логотип приложения" />
           </Link>
-          <div className="header__button-container_films">
+          <div className="header__button-container header__button-container_films">
             <NavLink
               to="/movies"
               className="header__button"

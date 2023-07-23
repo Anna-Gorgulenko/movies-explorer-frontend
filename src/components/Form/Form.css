@@ -23,12 +23,12 @@
   font-size: 24px;
 }
 
-.form {
+.form__content {
   display: flex;
   flex-direction: column;
   min-height: 380px;
   width: 100%;
-  /* outline: solid 4px green;*/
+  
 }
 
 .form__button-save {
@@ -69,8 +69,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 14px;
-
-  color: #8b8b8b;
+color: #8b8b8b;
 }
 
 .form__link {
@@ -160,7 +159,7 @@
     text-align: center;
   }
 
-  .form {
+  .form__content {
     min-height: 468px;
   }
 

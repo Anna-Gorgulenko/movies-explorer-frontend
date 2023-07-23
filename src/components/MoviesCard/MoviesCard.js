@@ -10,7 +10,7 @@ function MoviesCard() {
       <li className="card">
         {/* карточка вставлена временно для разметки верстки */}
         <img className="card__photo" src={avatar} alt="фотокарточка фильма" />
-        <div className="card__container">
+        <div className="card__info">
           <div className="card__title-container">
             <h2 className="card__title">Бег это свобода</h2>
             <span className="card__time">150</span>
@@ -22,7 +22,7 @@ function MoviesCard() {
       <li className="card">
         {/* карточка вставлена временно для разметки верстки */}
         <img className="card__photo" src={avatar} alt="фотокарточка фильма" />
-        <div className="card__container">
+        <div className="card__info">
           <div className="card__title-container">
             <h2 className="card__title">Бег это свобода</h2>
             <span className="card__time">150</span>

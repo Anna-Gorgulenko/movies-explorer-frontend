@@ -13,6 +13,7 @@ function SearchForm() {
             id="search"
             type="text"
             placeholder="Фильм"
+            required
           ></input>
         </div>
         <button className="search__button" type="submit">
@@ -20,6 +21,7 @@ function SearchForm() {
         </button>
       </form>
       <FilterCheckbox />
+      <span className="search__form-error">Нужно ввести ключевое слово</span>
       <div className="search__border-bottom"></div>
     </section>
   )

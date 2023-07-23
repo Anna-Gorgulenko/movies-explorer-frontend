@@ -1,4 +1,4 @@
-.scroll {
+.scroll__link {
   position: fixed;
   right: calc(50% - 25px);
   width: 44px;
@@ -6,7 +6,7 @@
   z-index: 999;
 }
 
-.scroll:hover {
+.scroll__link:hover {
   opacity: 0.6;
   cursor: pointer;
 }
