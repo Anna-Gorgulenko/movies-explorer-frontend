@@ -12,7 +12,7 @@
 - CCS3
 - Адаптивная верстка
 - Flexbox
-- Grid Layout
+- Grid Layout.
 
 ### Сcылка на макет в Figma:
 
